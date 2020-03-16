@@ -7,7 +7,8 @@ $config = [
     'language' => 'tr',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'frontend\controllers',
-    'modules' => [],
+    'bootstrap' => ['gii'],
+    'modules' => ['gii' => ['class' => 'yii\gii\Module']],
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
     ],

@@ -17,9 +17,11 @@ $this->beginPage()
     <?php $this->head() ?>
 </head>
 <body>
+	<div><h1>HEADER</h1></div>
 <?php $this->beginBody() ?>
     <?php echo $content ?>
 <?php $this->endBody() ?>
+	<div><h1>FOOTER</h1></div>
 </body>
 </html>
 <?php $this->endPage() ?>
