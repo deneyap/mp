@@ -1,0 +1,1 @@
+SEHIR : <?php echo $sehir; ?>
